@@ -1,2 +1,0 @@
-# PhoneGapTest
-Testing PhoneGap Application

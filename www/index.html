@@ -1,151 +1,108 @@
 <!DOCTYPE html>
-<!--
-    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
 
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type=" text/css" href="css/index.css" />
-        <link rel="stylesheet" type=" text/css" href="css/jquery.mobile.css" />
-        <link rel="stylesheet" type=" text/css" href="css/jquery.mobile.theme.css" />
-        <title>PINFINITY</title>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        <title>YoutubeVideos</title>
     </head>
-    <body> 
-
-        <div class="app">
-
-            <div data-role="page" id="home">
-
-                <div data-role="header" >
-                    <h1>PINFINITY</h1>
-                </div>
-
-                <div data-role="content">   
-                  <nav data-role="navbar">
-
-                    <ul>
-
-                        <li><a href="#home" class="ui-btn-active">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-
-                    </ul>
-                 
-                  </nav> 
-                  <h3>Home</h3>
-                  <img class="banner" src="img/banner.jpg"></img>
-                   <p>There is an ongoing debate on the extent to which the writing of programs is an art form, a craft, or an engineering discipline.[3] In general, good programming is considered to be the measured application of all three, with the goal of producing an efficient and evolvable software solution (the criteria for "efficient" and "evolvable" vary considerably).</p>
-                </div>
-                
-                <div data-role="footer">
-                    <h4>&copy 2015</h4>
-                </div>
-                
-            </div>   
-
-            <div data-role="page" id="about">
-
-                <div data-role="header" >
-                    <h1>PINFINITY</h1>
-                </div>
-
-                <div data-role="content">   
-                 <nav data-role="navbar">
-
-                    <ul>
-
-                        <li><a href="#home" >Home</a></li>
-                        <li><a href="#about" class="ui-btn-active">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-
-                    </ul>
-                 
-                  </nav>  
-                  <h3>About</h3>
-                  <img class="banner" src="img/about-us.png"></img>
-                  <p>There is an ongoing debate on the extent to which the writing of programs is an art form, a craft, or an engineering discipline.[3] In general, good programming is considered to be the measured application of all three, with the goal of producing an efficient and evolvable software solution (the criteria for "efficient" and "evolvable" vary considerably). The discipline differs from many other technical professions in that programmers, in general, do not need to be licensed or pass any standardized (or governmentally regulated) certification tests in order to call themselves "programmers" or even "software engineers." Because the discipline covers many areas, which may or may not include critical applications, it is debatable whether licensing is required for the profession as a whole. In most cases, the discipline is self-governed by the entities which require the programming, and sometimes very strict environments are defined (e.g. United States Air Force use of AdaCore and security clearance). However, representing oneself as a "professional software engineer" without a license from an accredited institution is illegal in many parts of the world.</p>
-                    
-                </div>
-                
-                <div data-role="footer">
-                    <h4>&copy 2015</h4>
-                </div>
-                
-            </div> 
-
-
-
-            <div data-role="page" id="contact">
-
-                <div data-role="header" >
-                    <h1>PINFINITY</h1>
-                </div>
-
-                <div data-role="content">   
-                  <nav data-role="navbar">
-
-                    <ul>
-
-                        <li><a href="#home" >Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact" class="ui-btn-active">Contact</a></li>
-
-                    </ul>
-                 
-                  </nav> 
-                  <h3>Address</h3>
-                  <img class="banner" src="img/contact-us.jpg"></img>
-                  <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212515.20405701853!2d72.84486483094022!3d33.66881845097958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C+Pakistan!5e0!3m2!1sen!2s!4v1449561892449" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  </div>
-                  <h3> Location</h3>
-                   <ul>
-                     <li> <strong>Address</strong>Islamabad</li>
-                     <li><strong>House No</strong> 23 </li>
-                     <li> <strong>Email</strong>info@devclever.co.uk</li>
-                   </ul>
-                    <!--<p> House no xyz <br> islamabad Pakistan</p>-->
-                </div>
-                
-                <div data-role="footer">
-                    <h4>&copy 2015</h4>
-                </div>
-                
-            </div>   
-
-
-
-
-
-        </div>     
+    <body>
        
-        <script type="text/javascript" src="cordova.js"></script>        
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-         
+
+       <!-- Main page --> 
+        <div data-role="page" id="main">
+
+        <div data-role="header">
+            <h1> Youtube Videos</h1>
+            <a href="#options" data-icon="gear" class="ui-btn-right">options</a>
+
+        </div>
+        <div data-role="content">
+
+
+            <img id="logo"src="img/logo.png">
+            <div id="showvideo"></div>
+            <br><br>
+            <ul id="vidlist" data-role="listview"></ul>
+
+
+        </div>
+
+       <div data-role="footer">
+
+        <h3> Copyright @ 2015 Youtube Video Downloader</h3>
+       </div>
+
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Popup alert@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+       <div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px; " class="ui-corner-all">
+        <div data-role="header" data-theme="a" class="ui-corner-top">
+
+                <h1>Add Channel</h1>
+        </div>
+        
+       
+       <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+       <div data-role="content" data-theme-="d" class="ui-corner-bottom ui-content" >
+        <h3 class="ui-title"> Please Enter A Channel Name</h3>
+         <input type="text" id="channelName" placeholder="Channel Name" />
+         <a id="channelBtnCancel" href="#" data-role="button" data-inline="true" data-rel="back" data-theme="c">Cancel</a>
+         <a id="channelBtnOk" href="#" data-role="button" data-inline="true" data-rel="back" data-transition="flow" data-theme="b">ok</a>
     
+
+            </div>
+       </div>
+        </div>
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+        <!-- Setting page-->
+
+        <div data-role="page" id = "options">
+
+        <div data-role="header">
+            <h1> Youtube Videos</h1>
+            <a href="#main" data-icon="delete">cancel</a><h1>options</h1><a href="#" id="saveoptions" data-icon="check" data-theme="b">Save</a>
+            
+        </div>
+        <div data-role="content">
+            <div data-role="fieldcontain">
+                   
+                    <label for="channelNameoptions"><h3>Channel Name:</h3></label>
+                    <input type="text" name="channelNameOptionsinput" id="channelNameoptionsinput" placeholder="Enter Channel Name">
+
+            </div>
+             <br>
+             <div class="ui-btn ui-input-btn ui-shadow">
+                Clear Channel
+             <input type="button" id="clearchannel" data-corners="false" data-enhanced="true" value="Clear Channel"> 
+
+             </div>
+         
+        </div>
+
+      <div data-role="fieldcontain">
+                   
+                    <label for="maxResultoptions"><h3>Max Results:</h3></label>
+                    <input type="text" name="maxResultoptions" id="maxResultoptions" placeholder="Enter Max Results">
+
+            </div>
+
+       <div data-role="footer">
+
+        <h3> Copyright @ 2015 Youtube Video Downloader</h3>
+       </div>
+
+        </div>
+   <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+       
     </body>
 </html>
- 
